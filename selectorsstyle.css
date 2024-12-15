@@ -1,0 +1,71 @@
+body {
+  color: black;
+  background-color: rgb(129, 90, 90);
+}
+h1 {
+  color: brown;
+}
+
+/*Element Selector*/
+p {
+  color: blue;
+}
+div {
+  margin: 50px;
+}
+
+/*Class Selector*/
+.cs {
+  color: green;
+  font-weight: bolder;
+}
+.dv {
+  color: brown;
+  font-weight: bolder;
+  margin: 0px;
+}
+
+/*ID Selector*/
+#id {
+  color: orangered;
+  margin: 0px;
+}
+
+#id {
+  color: blueviolet;
+}
+#idd2 {
+  color: blanchedalmond;
+}
+
+.class1 {
+  color: bisque;
+}
+.ex {
+  color: blue;
+}
+
+/* Altribute Selectors */
+input[type^="text"] {
+  background-color: brown;
+}
+a[href^="https"] {
+  color: green;
+}
+
+/* Pseudo Class Selector */
+a :hover {
+  color: red;
+}
+
+input :focus {
+  border-color: blue;
+}
+
+div p {
+  color: blue;
+}
+
+.wrapper p {
+  color: green;
+}
